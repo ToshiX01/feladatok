@@ -1,0 +1,23 @@
+import turtle
+
+sapka = r"C:\Users\tarrm\PycharmProjects\Adventi_kalendar\elf\sapka.gif"
+elftest = r"C:\Users\tarrm\PycharmProjects\Adventi_kalendar\elf\elftest.gif"
+fej = r"C:\Users\tarrm\PycharmProjects\Adventi_kalendar\elf\elffej3.gif"
+screen = turtle.Screen()
+screen.addshape(sapka)
+screen.addshape(elftest)
+screen.addshape(fej)
+t = turtle.Turtle()
+t.shape(sapka)
+t.penup()
+t.goto(0,50)
+t2 = turtle.Turtle()
+t2.shape(elftest)
+t2.penup()
+t2.goto(0,-215)
+t3 = turtle.Turtle()
+t3.shape(fej)
+t3.penup()
+t3.goto(30,-40)
+
+turtle.mainloop()
